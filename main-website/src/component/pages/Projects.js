@@ -1,10 +1,11 @@
 import React from 'react'
+import GetProjects from '../Projects/GetProjects'
 
 function Projects() {
     return (
-        <div className='container'>
-            <h1>Projects Page</h1>
-        </div>
+        <>
+            <GetProjects />
+        </>
     )
 }
 

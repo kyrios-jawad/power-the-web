@@ -3,8 +3,6 @@ ul > li{
     letter-spacing: .2rem;
 }
 .mainmenu {
-    font-family: "Dosis";
-  
     background: #efefbb; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,

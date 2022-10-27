@@ -8,7 +8,7 @@ function Navbar() {
   const navigation = [
     { name: "Home", to: "/", current: false },
     { name: "Contributors", to: "/contributors", current: false },
-    { name: "Projects", to: "/projects.html", current: false },
+    { name: "Projects", to: "/projects", current: false },
     { name: "Blog", to: "/blog", current: false },
     { name: "Roadmap", to: "/roadmap", current: false },
   ];

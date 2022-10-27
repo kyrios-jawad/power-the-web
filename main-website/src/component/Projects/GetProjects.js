@@ -17,7 +17,10 @@ function GetProjects() {
     return (
         <>
             <div className='projects-container place-items-center p-4'>
-
+                <div className="text-center text-uppercase m-8">
+                    <h1 className="text-4xl font-semibold">  Contributors Projects </h1>
+                    <p className="text-base"> Source code given in GitHub. Join Us </p>
+                </div>
                 <ul>
                     {
                         projects.map((item, index) => (

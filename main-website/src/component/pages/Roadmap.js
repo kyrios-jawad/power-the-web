@@ -1,10 +1,14 @@
 import React from 'react'
-
+import RoadmapHero from '../Roadmap/RoadmapHero'
+import Card from '../Roadmap/Card'
 function Roadmap() {
     return (
-        <div>
-            <h1>Roadmap Page</h1>
-        </div>
+        <>
+
+            <RoadmapHero />
+            <Card />
+
+        </>
     )
 }
 
